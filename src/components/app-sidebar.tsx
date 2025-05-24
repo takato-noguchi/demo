@@ -41,27 +41,37 @@ const data = {
   },
   navMain: [
     {
-      title: "Dashboard",
+      title: "資本政策",
       url: "#",
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
+      title: "株主総会",
+      url: "#",
+      icon: IconDashboard,
+    },
+    {
+      title: "取締役会",
       url: "#",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
+      title: "株式報酬ベンチマーク",
       url: "#",
       icon: IconChartBar,
     },
     {
-      title: "Projects",
+      title: "従業員マイページ",
       url: "#",
       icon: IconFolder,
     },
     {
-      title: "Team",
+      title: "従業員管理",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "ストックオプション発行",
       url: "#",
       icon: IconUsers,
     },
@@ -116,12 +126,12 @@ const data = {
   ],
   navSecondary: [
     {
-      title: "Settings",
-      url: "#",
+      title: "設定",
+      url: "/settings",
       icon: IconSettings,
     },
     {
-      title: "Get Help",
+      title: "ヘルプページ",
       url: "#",
       icon: IconHelp,
     },
@@ -133,12 +143,12 @@ const data = {
   ],
   documents: [
     {
-      name: "Data Library",
+      name: "求人管理",
       url: "#",
       icon: IconDatabase,
     },
     {
-      name: "Reports",
+      name: "応募者管理",
       url: "#",
       icon: IconReport,
     },
@@ -162,7 +172,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <span className="text-base font-semibold">株式会社テスト</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
