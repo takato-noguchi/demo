@@ -71,7 +71,7 @@ const data = {
       icon: IconUsers,
     },
     {
-      title: "ストックオプション発行",
+      title: "スカウト送信",
       url: "#",
       icon: IconUsers,
     },
@@ -153,7 +153,7 @@ const data = {
       icon: IconReport,
     },
     {
-      name: "Word Assistant",
+      name: "レポーティング",
       url: "#",
       icon: IconFileWord,
     },
