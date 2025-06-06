@@ -43,7 +43,7 @@ export default function Page() {
           {/* タブ */}
           <Tabs defaultValue="account" className="w-full">
             <TabsList>
-              <TabsTrigger value="account">アカウント情報</TabsTrigger>
+              <TabsTrigger value="account">会社設定</TabsTrigger>
               <TabsTrigger value="security">パスワード変更</TabsTrigger>
               <TabsTrigger value="notifications">通知設定</TabsTrigger>
               <TabsTrigger value="billing">支払い設定</TabsTrigger>
@@ -54,7 +54,7 @@ export default function Page() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
                 <Card>
                   <CardHeader>
-                    <CardTitle>アカウント情報</CardTitle>
+                    <CardTitle>会社設定</CardTitle>
                     <CardDescription>
                       お名前やメールアドレスを更新できます。
                     </CardDescription>

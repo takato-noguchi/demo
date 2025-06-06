@@ -4,7 +4,6 @@ import React from "react";
 import {
   IconCamera,
   IconChartBar,
-  IconDashboard,
   IconDatabase,
   IconFileAi,
   IconFileDescription,
@@ -12,7 +11,6 @@ import {
   IconFolder,
   IconHelp,
   IconInnerShadowTop,
-  IconListDetails,
   IconReport,
   IconSearch,
   IconSettings,
@@ -41,22 +39,7 @@ const data = {
   },
   navMain: [
     {
-      title: "資本政策",
-      url: "#",
-      icon: IconDashboard,
-    },
-    {
-      title: "株主総会",
-      url: "#",
-      icon: IconDashboard,
-    },
-    {
-      title: "取締役会",
-      url: "#",
-      icon: IconListDetails,
-    },
-    {
-      title: "株式報酬ベンチマーク",
+      title: "職務履歴書",
       url: "#",
       icon: IconChartBar,
     },
